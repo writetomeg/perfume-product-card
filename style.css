@@ -1,0 +1,90 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    /* font-family: "Fraunces", serif; */
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-content:center
+}
+.card {
+    border-radius: 10px;
+    /* display: flex;
+    max-width: 60rem; */
+    background-color: white;     
+}
+
+
+.img_container{
+    width: 50%
+}
+
+.img_container img{
+    height: 100%;
+    width: 100%;
+    
+}
+.details_container{
+    width: 50%;
+    padding: 1.5rem;
+}
+.details_container .name{
+    color:black;
+    font-weight:700;
+    line-height:32px;
+    font: size 32px;
+    padding-right: 2rem;
+    margin-bottom: 1.75rem;
+    font-family: Fraunces;
+    font-style: normal;
+}
+.details_container .description{
+    color:#6C7289;
+    font-family: Montserrat;
+    font-weight:500;
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: black;
+    line-height:23px;
+    margin-bottom: 1.75rem;
+    position: absolute;
+    
+}
+.title{
+    font-family: Montserrat;
+    letter-spacing: 5px;
+    font-size: 12px;
+    line-height:15px;
+    font-weight: 500;
+    color:#6C7289;
+}
+.price_container {
+    display: flex;
+    gap: 1rem;
+    align-items:center;
+    margin-bottom: 1 rem;
+    padding: 1.5rem;
+}
+.price_container .current_price{
+    color: black;
+}
+.price_container .old_price{
+    font-family: "Montserrat";
+    color: black;
+    text-decoration: line-through;
+}
+
+@media (max-width)
+
+
+
+
+
+
+
+
+
